@@ -3,8 +3,8 @@ import leesunsin from "public/imgs/part1/leesunsin.jpg";
 
 const Page_Pictures = () => {
   return (
-    <div>
-      <Image src={leesunsin} alt="leesunsin" />
+    <div style={{width: '200px', height:'500px'}}>
+      <Image src={leesunsin} alt="leesunsin" fill/>
     </div>
   );
 };
